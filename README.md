@@ -1,2 +1,2 @@
-# Landing-Page
-Exercise The Odin Project
+# Landing Page
+This is my landing page

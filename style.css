@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, serif;
+
+  }
+
+header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+
+    
+}
+h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 8px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 100px
+    
+    
+  
+}
+
+.hero h2{
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero div{
+    width: 500px;
+}
+
+.hero-img{
+    width: 85%;
+}
+
+#img-hero{
+    text-align: right;
+}
+
+.hero-txt{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0 0 18px 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.information{
+    padding: 0 0 100px 0;
+}
+
+.header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;    
+}
+.merge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.inf{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+ 
+
+}
+
+.inf img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #3882f6;
+    padding: 0;
+    margin: 0;  
+    border-radius: 10px;
+}
+
+.inf p{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.quote{
+    background-color: #e5e7e5;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    
+}
+
+.quote div{
+    padding: 100px 250px;
+}
+
+.quote p{
+    margin: 0;
+}
+
+.action{
+    padding: 100px 200px;
+}
+
+.act {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 150px;
+
+}
+
+.button {
+    border: 3px solid white;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.text{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+@media (max-width: 800px) {
+    
+    header {
+        padding: 0 10px;
+    }
+
+    .hero {
+        padding: 0 10px;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #img-hero{
+        text-align: center;
+    }
+    
+    .quote div{
+        padding: 0;
+    }
+
+    .action {
+        padding: 0;
+    }
+
+    .act{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+}
+
